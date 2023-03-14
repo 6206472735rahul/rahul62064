@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: cursive;
+     /* box-sizing: border-box;  */
+}
+
+ /* working for body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color:royalblue;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    
+}
+/* working for container(box)where i write some content for .StopWatch */
+#container{
+    background-color:lightgrey;
+    height: fit-content;
+    width: fit-content;
+    padding: 4%;
+    margin: auto;
+    border-radius: 30% 10% 30% 10%;
+    box-shadow: 0px 0px 5px 5px darkgray;
+
+    
+}
+/* this is heading of h2 :where i write .StopWatch */
+.StopWatch{
+     color: rgb(5, 128, 139); 
+    font-size:30px;
+text-align: center;
+}
+/* this is h1 where give some fontsize for sec,hr,min (like that 00:00:00)*/
+h1{
+    font-size:50px;
+}
+
+/* working for all button */
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 8px;
+    margin: 5px;
+
+
+}
+ /* target each button for designing purpose */
+ /* i have a 3 button  */
+ #btn1{  /*this is start button */
+    color: white;
+    background-color: green;
+    border-radius: 12px;
+}
+#btn2{  /*this is stop button */
+    color: aliceblue;
+    background-color: red;
+    border-radius: 10px;
+}
+#btn3{  /*this is reset button */
+color: aqua;
+    background-color: blue;
+    border-radius: 12px;
+}
